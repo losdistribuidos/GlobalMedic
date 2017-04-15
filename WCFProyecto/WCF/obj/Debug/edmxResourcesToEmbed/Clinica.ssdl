@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ClinicaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ClinicaModelStoreContainer">
+    <EntitySet Name="Cita" EntityType="ClinicaModel.Store.Cita" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Diagnostico" EntityType="ClinicaModel.Store.Diagnostico" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Distritos" EntityType="ClinicaModel.Store.Distritos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Doctor" EntityType="ClinicaModel.Store.Doctor" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Enfermedad" EntityType="ClinicaModel.Store.Enfermedad" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Especialidad" EntityType="ClinicaModel.Store.Especialidad" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HorarioAtencion" EntityType="ClinicaModel.Store.HorarioAtencion" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Pacientes" EntityType="ClinicaModel.Store.Pacientes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sala" EntityType="ClinicaModel.Store.Sala" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Usuarios" EntityType="ClinicaModel.Store.Usuarios" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="fk_Cita_Diagnostico" Association="ClinicaModel.Store.fk_Cita_Diagnostico">
+      <End Role="Cita" EntitySet="Cita" />
+      <End Role="Diagnostico" EntitySet="Diagnostico" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Cita_Doctor" Association="ClinicaModel.Store.fk_Cita_Doctor">
+      <End Role="Doctor" EntitySet="Doctor" />
+      <End Role="Cita" EntitySet="Cita" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Cita_Pacientes" Association="ClinicaModel.Store.fk_Cita_Pacientes">
+      <End Role="Pacientes" EntitySet="Pacientes" />
+      <End Role="Cita" EntitySet="Cita" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Cita_Sala" Association="ClinicaModel.Store.fk_Cita_Sala">
+      <End Role="Sala" EntitySet="Sala" />
+      <End Role="Cita" EntitySet="Cita" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Doctor_Especialidad" Association="ClinicaModel.Store.fk_Doctor_Especialidad">
+      <End Role="Especialidad" EntitySet="Especialidad" />
+      <End Role="Doctor" EntitySet="Doctor" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Doctor_Horario" Association="ClinicaModel.Store.fk_Doctor_Horario">
+      <End Role="HorarioAtencion" EntitySet="HorarioAtencion" />
+      <End Role="Doctor" EntitySet="Doctor" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Enfermedad_Diagnostico" Association="ClinicaModel.Store.fk_Enfermedad_Diagnostico">
+      <End Role="Enfermedad" EntitySet="Enfermedad" />
+      <End Role="Diagnostico" EntitySet="Diagnostico" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Pacientes_Diagnostico" Association="ClinicaModel.Store.fk_Pacientes_Diagnostico">
+      <End Role="Pacientes" EntitySet="Pacientes" />
+      <End Role="Diagnostico" EntitySet="Diagnostico" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Pacientes_Distritos" Association="ClinicaModel.Store.fk_Pacientes_Distritos">
+      <End Role="Distritos" EntitySet="Distritos" />
+      <End Role="Pacientes" EntitySet="Pacientes" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Pacientes_Sala" Association="ClinicaModel.Store.fk_Pacientes_Sala">
+      <End Role="Sala" EntitySet="Sala" />
+      <End Role="Pacientes" EntitySet="Pacientes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Cita">
+    <Key>
+      <PropertyRef Name="codigo_cita" />
+    </Key>
+    <Property Name="codigo_cita" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="codigo_paciente" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="codigo_sala" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="servicio" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="pago" Type="decimal" Nullable="false" />
+    <Property Name="codigo_medico" Type="char" MaxLength="3" />
+    <Property Name="FechaRegistro" Type="date" />
+    <Property Name="Orden" Type="char" MaxLength="3" />
+    <Property Name="FechaAtencion" Type="date" />
+  </EntityType>
+  <EntityType Name="Diagnostico">
+    <Key>
+      <PropertyRef Name="codigo_diagnostico" />
+    </Key>
+    <Property Name="codigo_diagnostico" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="codigo_cita" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="codigo_paciente" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="codigo_enfermedad" Type="varchar" Nullable="false" MaxLength="3" />
+    <Property Name="medicamento" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="talla" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="enf_terminal" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="pesopaciente" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="fecha_diagnostico" Type="date" />
+  </EntityType>
+  <EntityType Name="Distritos">
+    <Key>
+      <PropertyRef Name="dis_id" />
+    </Key>
+    <Property Name="dis_id" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="dis_nombre" Type="nvarchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Doctor">
+    <Key>
+      <PropertyRef Name="codigo_doctor" />
+    </Key>
+    <Property Name="codigo_doctor" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="apellido" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="direccion" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="telefono" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="email" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="cod_especialidad" Type="char" MaxLength="3" />
+    <Property Name="codigo_horarios" Type="char" Nullable="false" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="Enfermedad">
+    <Key>
+      <PropertyRef Name="codigo_enfermedad" />
+    </Key>
+    <Property Name="codigo_enfermedad" Type="varchar" Nullable="false" MaxLength="3" />
+    <Property Name="nombre_enfermedad" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="enfermedad_Terminal" Type="varchar" Nullable="false" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="Especialidad">
+    <Key>
+      <PropertyRef Name="codigo_esp" />
+    </Key>
+    <Property Name="codigo_esp" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="especialidad" Type="varchar" Nullable="false" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="HorarioAtencion">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="HoraInicio" Type="datetime" Nullable="false" />
+    <Property Name="HoraFin" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pacientes">
+    <Key>
+      <PropertyRef Name="codigo_paciente" />
+    </Key>
+    <Property Name="codigo_paciente" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="apellido" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fecha_nac" Type="date" Nullable="false" />
+    <Property Name="sexo" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="codigo_sala" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="pais" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="codigo_distrito" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="emergencia" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="ocupacion" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="alergia" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Sala">
+    <Key>
+      <PropertyRef Name="codigo_sala" />
+    </Key>
+    <Property Name="codigo_sala" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="usuario" />
+    </Key>
+    <Property Name="codigo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="usuario" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="contraseña" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <Association Name="fk_Cita_Diagnostico">
+    <End Role="Cita" Type="ClinicaModel.Store.Cita" Multiplicity="1" />
+    <End Role="Diagnostico" Type="ClinicaModel.Store.Diagnostico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cita">
+        <PropertyRef Name="codigo_cita" />
+      </Principal>
+      <Dependent Role="Diagnostico">
+        <PropertyRef Name="codigo_cita" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Cita_Doctor">
+    <End Role="Doctor" Type="ClinicaModel.Store.Doctor" Multiplicity="0..1" />
+    <End Role="Cita" Type="ClinicaModel.Store.Cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="codigo_doctor" />
+      </Principal>
+      <Dependent Role="Cita">
+        <PropertyRef Name="codigo_medico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Cita_Pacientes">
+    <End Role="Pacientes" Type="ClinicaModel.Store.Pacientes" Multiplicity="1" />
+    <End Role="Cita" Type="ClinicaModel.Store.Cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pacientes">
+        <PropertyRef Name="codigo_paciente" />
+      </Principal>
+      <Dependent Role="Cita">
+        <PropertyRef Name="codigo_paciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Cita_Sala">
+    <End Role="Sala" Type="ClinicaModel.Store.Sala" Multiplicity="1" />
+    <End Role="Cita" Type="ClinicaModel.Store.Cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sala">
+        <PropertyRef Name="codigo_sala" />
+      </Principal>
+      <Dependent Role="Cita">
+        <PropertyRef Name="codigo_sala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Doctor_Especialidad">
+    <End Role="Especialidad" Type="ClinicaModel.Store.Especialidad" Multiplicity="0..1" />
+    <End Role="Doctor" Type="ClinicaModel.Store.Doctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Especialidad">
+        <PropertyRef Name="codigo_esp" />
+      </Principal>
+      <Dependent Role="Doctor">
+        <PropertyRef Name="cod_especialidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Doctor_Horario">
+    <End Role="HorarioAtencion" Type="ClinicaModel.Store.HorarioAtencion" Multiplicity="1" />
+    <End Role="Doctor" Type="ClinicaModel.Store.Doctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HorarioAtencion">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="Doctor">
+        <PropertyRef Name="codigo_horarios" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Enfermedad_Diagnostico">
+    <End Role="Enfermedad" Type="ClinicaModel.Store.Enfermedad" Multiplicity="1" />
+    <End Role="Diagnostico" Type="ClinicaModel.Store.Diagnostico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Enfermedad">
+        <PropertyRef Name="codigo_enfermedad" />
+      </Principal>
+      <Dependent Role="Diagnostico">
+        <PropertyRef Name="codigo_enfermedad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Pacientes_Diagnostico">
+    <End Role="Pacientes" Type="ClinicaModel.Store.Pacientes" Multiplicity="1" />
+    <End Role="Diagnostico" Type="ClinicaModel.Store.Diagnostico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pacientes">
+        <PropertyRef Name="codigo_paciente" />
+      </Principal>
+      <Dependent Role="Diagnostico">
+        <PropertyRef Name="codigo_paciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Pacientes_Distritos">
+    <End Role="Distritos" Type="ClinicaModel.Store.Distritos" Multiplicity="1" />
+    <End Role="Pacientes" Type="ClinicaModel.Store.Pacientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Distritos">
+        <PropertyRef Name="dis_id" />
+      </Principal>
+      <Dependent Role="Pacientes">
+        <PropertyRef Name="codigo_distrito" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Pacientes_Sala">
+    <End Role="Sala" Type="ClinicaModel.Store.Sala" Multiplicity="1" />
+    <End Role="Pacientes" Type="ClinicaModel.Store.Pacientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sala">
+        <PropertyRef Name="codigo_sala" />
+      </Principal>
+      <Dependent Role="Pacientes">
+        <PropertyRef Name="codigo_sala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="sp_ActualizarCita" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+    <Parameter Name="codpa" Type="char" Mode="In" />
+    <Parameter Name="serv" Type="varchar" Mode="In" />
+    <Parameter Name="pago" Type="decimal" Mode="In" />
+    <Parameter Name="come" Type="char" Mode="In" />
+    <Parameter Name="fecr" Type="datetime" Mode="In" />
+    <Parameter Name="ord" Type="char" Mode="In" />
+    <Parameter Name="feca" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_ActualizarMedico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+    <Parameter Name="nom" Type="varchar" Mode="In" />
+    <Parameter Name="ape" Type="varchar" Mode="In" />
+    <Parameter Name="dire" Type="varchar" Mode="In" />
+    <Parameter Name="telf" Type="varchar" Mode="In" />
+    <Parameter Name="ema" Type="varchar" Mode="In" />
+    <Parameter Name="code" Type="char" Mode="In" />
+    <Parameter Name="codh" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ActualizarPacientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+    <Parameter Name="nom" Type="varchar" Mode="In" />
+    <Parameter Name="ape" Type="varchar" Mode="In" />
+    <Parameter Name="fecnac" Type="date" Mode="In" />
+    <Parameter Name="sex" Type="varchar" Mode="In" />
+    <Parameter Name="cods" Type="char" Mode="In" />
+    <Parameter Name="pais" Type="varchar" Mode="In" />
+    <Parameter Name="codd" Type="char" Mode="In" />
+    <Parameter Name="emer" Type="varchar" Mode="In" />
+    <Parameter Name="ocup" Type="varchar" Mode="In" />
+    <Parameter Name="aler" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_AgregarHorario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codho" Type="char" Mode="In" />
+    <Parameter Name="fecaini" Type="date" Mode="In" />
+    <Parameter Name="fecafin" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_AgregarMedico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nom" Type="varchar" Mode="In" />
+    <Parameter Name="ape" Type="varchar" Mode="In" />
+    <Parameter Name="dire" Type="varchar" Mode="In" />
+    <Parameter Name="telf" Type="varchar" Mode="In" />
+    <Parameter Name="ema" Type="varchar" Mode="In" />
+    <Parameter Name="code" Type="char" Mode="In" />
+    <Parameter Name="codh" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_AgregarPaciente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nom" Type="varchar" Mode="In" />
+    <Parameter Name="ape" Type="varchar" Mode="In" />
+    <Parameter Name="fecnac" Type="date" Mode="In" />
+    <Parameter Name="sex" Type="varchar" Mode="In" />
+    <Parameter Name="cods" Type="char" Mode="In" />
+    <Parameter Name="pais" Type="varchar" Mode="In" />
+    <Parameter Name="codd" Type="char" Mode="In" />
+    <Parameter Name="emer" Type="varchar" Mode="In" />
+    <Parameter Name="ocup" Type="varchar" Mode="In" />
+    <Parameter Name="aler" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_CitasPaciente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codPaciente" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ConsultarDistritos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ConsultarEnfermedad" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ecod" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ConsultarHorarios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ConsultarMedicos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ConsultarPacientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ConsultarSala" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_DoctorxCitas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codDoctor" Type="char" Mode="In" />
+    <Parameter Name="servicio" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_EliminarCita" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_EliminarMedico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_EliminarPacientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vcod" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarCantidadEnfermedasdesPaises" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codEnfermedad" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarCantidadEnfermedasdesPaises2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pais" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarCantidadPacientesxDistritoxDoctor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="doc" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarCantidadPacientesxDistritoxDoctor2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="doc" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarCantidadPacientesxSexoxDistritoxDoctor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="doc" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarCitas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ListarCitaxFechaxServicio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codEspec" Type="varchar" Mode="In" />
+    <Parameter Name="sex" Type="varchar" Mode="In" />
+    <Parameter Name="fec_ini" Type="date" Mode="In" />
+    <Parameter Name="fec_fin" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarDistrito" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ListarEnfermedades" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ListarEnfermedadesFechas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cod_enf" Type="char" Mode="In" />
+    <Parameter Name="fec_ini" Type="date" Mode="In" />
+    <Parameter Name="fec_fin" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarEnfermedadesMedicamento" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cod_enf" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarEnfermedadesMedicamentocontando" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cod_enf" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarEspecialidad" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ListarHorarios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ListarMedico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ListarMedicoNombre" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nom" Type="varchar" Mode="In" />
+    <Parameter Name="ape" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarPacienteNombre" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nom" Type="varchar" Mode="In" />
+    <Parameter Name="ape" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarPacientepordistrito2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cod_enf" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarPacientePorEnfermedad" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codEnfermedad" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarPacientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_listarpacientes2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ListarPaisRegistrados" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pais" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarSalas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ListarServicio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ListarxCantidadxPacientexSalaxPaisxServicio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="servicio" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarxCantidadxPacientexSexoxDistrito" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Sex" Type="varchar" Mode="In" />
+    <Parameter Name="dis" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarxCantidadxPacientexSexoxDistrito2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Sex" Type="varchar" Mode="In" />
+    <Parameter Name="dis" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarxCantidadxPacientexSexoxSala" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="sal" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarxPacientexSexoxFecha" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Sex" Type="varchar" Mode="In" />
+    <Parameter Name="fec_ini" Type="date" Mode="In" />
+    <Parameter Name="fec_fin" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarxPacientexSexoxFecha2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Sex" Type="varchar" Mode="In" />
+    <Parameter Name="fec_ini" Type="date" Mode="In" />
+    <Parameter Name="fec_fin" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarxPacientexSexoxFecha3" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Sex" Type="varchar" Mode="In" />
+    <Parameter Name="fec_ini" Type="date" Mode="In" />
+    <Parameter Name="fec_fin" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_ListarxPacientexSexoxFechaxDistrito" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Sex" Type="varchar" Mode="In" />
+    <Parameter Name="Dis" Type="varchar" Mode="In" />
+    <Parameter Name="fec_ini" Type="date" Mode="In" />
+    <Parameter Name="fec_fin" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_ListaxCantidadxCitasxPacientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Sala" Type="varchar" Mode="In" />
+    <Parameter Name="sexo" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListaxCantidadxCitasxPacientes2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Sala" Type="varchar" Mode="In" />
+    <Parameter Name="sexo" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_ListaxDoctorxHoraAtencion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codDoctor" Type="char" Mode="In" />
+    <Parameter Name="sexo" Type="varchar" Mode="In" />
+    <Parameter Name="pais" Type="varchar" Mode="In" />
+    <Parameter Name="fec_ini" Type="date" Mode="In" />
+    <Parameter Name="fec_fin" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_ReportePaciente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nom" Type="varchar" Mode="In" />
+    <Parameter Name="ape" Type="varchar" Mode="In" />
+    <Parameter Name="noms" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ReportMedico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="desde" Type="int" Mode="In" />
+    <Parameter Name="hasta" Type="int" Mode="In" />
+  </Function>
+</Schema>

@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ClinicaModelStoreContainer" CdmEntityContainer="ClinicaEntities3">
+    <EntitySetMapping Name="Cita">
+      <EntityTypeMapping TypeName="ClinicaModel.Cita">
+        <MappingFragment StoreEntitySet="Cita">
+          <ScalarProperty Name="codigo_cita" ColumnName="codigo_cita" />
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="servicio" ColumnName="servicio" />
+          <ScalarProperty Name="pago" ColumnName="pago" />
+          <ScalarProperty Name="codigo_medico" ColumnName="codigo_medico" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="Orden" ColumnName="Orden" />
+          <ScalarProperty Name="FechaAtencion" ColumnName="FechaAtencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Diagnostico">
+      <EntityTypeMapping TypeName="ClinicaModel.Diagnostico">
+        <MappingFragment StoreEntitySet="Diagnostico">
+          <ScalarProperty Name="codigo_diagnostico" ColumnName="codigo_diagnostico" />
+          <ScalarProperty Name="codigo_cita" ColumnName="codigo_cita" />
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="codigo_enfermedad" ColumnName="codigo_enfermedad" />
+          <ScalarProperty Name="medicamento" ColumnName="medicamento" />
+          <ScalarProperty Name="talla" ColumnName="talla" />
+          <ScalarProperty Name="enf_terminal" ColumnName="enf_terminal" />
+          <ScalarProperty Name="pesopaciente" ColumnName="pesopaciente" />
+          <ScalarProperty Name="fecha_diagnostico" ColumnName="fecha_diagnostico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Distritos">
+      <EntityTypeMapping TypeName="ClinicaModel.Distritos">
+        <MappingFragment StoreEntitySet="Distritos">
+          <ScalarProperty Name="dis_id" ColumnName="dis_id" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Doctor">
+      <EntityTypeMapping TypeName="ClinicaModel.Doctor">
+        <MappingFragment StoreEntitySet="Doctor">
+          <ScalarProperty Name="codigo_doctor" ColumnName="codigo_doctor" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="cod_especialidad" ColumnName="cod_especialidad" />
+          <ScalarProperty Name="codigo_horarios" ColumnName="codigo_horarios" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Enfermedad">
+      <EntityTypeMapping TypeName="ClinicaModel.Enfermedad">
+        <MappingFragment StoreEntitySet="Enfermedad">
+          <ScalarProperty Name="codigo_enfermedad" ColumnName="codigo_enfermedad" />
+          <ScalarProperty Name="nombre_enfermedad" ColumnName="nombre_enfermedad" />
+          <ScalarProperty Name="enfermedad_Terminal" ColumnName="enfermedad_Terminal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Especialidad">
+      <EntityTypeMapping TypeName="ClinicaModel.Especialidad">
+        <MappingFragment StoreEntitySet="Especialidad">
+          <ScalarProperty Name="codigo_esp" ColumnName="codigo_esp" />
+          <ScalarProperty Name="especialidad1" ColumnName="especialidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HorarioAtencion">
+      <EntityTypeMapping TypeName="ClinicaModel.HorarioAtencion">
+        <MappingFragment StoreEntitySet="HorarioAtencion">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="HoraInicio" ColumnName="HoraInicio" />
+          <ScalarProperty Name="HoraFin" ColumnName="HoraFin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pacientes">
+      <EntityTypeMapping TypeName="ClinicaModel.Pacientes">
+        <MappingFragment StoreEntitySet="Pacientes">
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="codigo_distrito" ColumnName="codigo_distrito" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sala">
+      <EntityTypeMapping TypeName="ClinicaModel.Sala">
+        <MappingFragment StoreEntitySet="Sala">
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="ClinicaModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_ActualizarCita" FunctionName="ClinicaModel.Store.sp_ActualizarCita" />
+    <FunctionImportMapping FunctionImportName="sp_ActualizarMedico" FunctionName="ClinicaModel.Store.sp_ActualizarMedico" />
+    <FunctionImportMapping FunctionImportName="sp_ActualizarPacientes" FunctionName="ClinicaModel.Store.sp_ActualizarPacientes" />
+    <FunctionImportMapping FunctionImportName="sp_AgregarHorario" FunctionName="ClinicaModel.Store.sp_AgregarHorario" />
+    <FunctionImportMapping FunctionImportName="sp_AgregarMedico" FunctionName="ClinicaModel.Store.sp_AgregarMedico" />
+    <FunctionImportMapping FunctionImportName="sp_AgregarPaciente" FunctionName="ClinicaModel.Store.sp_AgregarPaciente" />
+    <FunctionImportMapping FunctionImportName="sp_CitasPaciente" FunctionName="ClinicaModel.Store.sp_CitasPaciente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_CitasPaciente_Result">
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="numero_sala" ColumnName="numero_sala" />
+          <ScalarProperty Name="cantidad_citas" ColumnName="cantidad_citas" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ConsultarDistritos" FunctionName="ClinicaModel.Store.sp_ConsultarDistritos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ConsultarDistritos_Result">
+          <ScalarProperty Name="dis_id" ColumnName="dis_id" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ConsultarEnfermedad" FunctionName="ClinicaModel.Store.sp_ConsultarEnfermedad">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ConsultarEnfermedad_Result">
+          <ScalarProperty Name="codigo_enfermedad" ColumnName="codigo_enfermedad" />
+          <ScalarProperty Name="nombre_enfermedad" ColumnName="nombre_enfermedad" />
+          <ScalarProperty Name="enfermedad_Terminal" ColumnName="enfermedad_Terminal" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ConsultarHorarios" FunctionName="ClinicaModel.Store.sp_ConsultarHorarios">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ConsultarHorarios_Result">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="HoraInicio" ColumnName="HoraInicio" />
+          <ScalarProperty Name="HoraFin" ColumnName="HoraFin" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ConsultarMedicos" FunctionName="ClinicaModel.Store.sp_ConsultarMedicos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ConsultarMedicos_Result">
+          <ScalarProperty Name="codigo_doctor" ColumnName="codigo_doctor" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ConsultarPacientes" FunctionName="ClinicaModel.Store.sp_ConsultarPacientes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ConsultarPacientes_Result">
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ConsultarSala" FunctionName="ClinicaModel.Store.sp_ConsultarSala">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ConsultarSala_Result">
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_DoctorxCitas" FunctionName="ClinicaModel.Store.sp_DoctorxCitas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_DoctorxCitas_Result">
+          <ScalarProperty Name="Doctor" ColumnName="Doctor" />
+          <ScalarProperty Name="servicio" ColumnName="servicio" />
+          <ScalarProperty Name="numero_sala" ColumnName="numero_sala" />
+          <ScalarProperty Name="cantidad_citas" ColumnName="cantidad_citas" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_EliminarCita" FunctionName="ClinicaModel.Store.sp_EliminarCita" />
+    <FunctionImportMapping FunctionImportName="sp_EliminarMedico" FunctionName="ClinicaModel.Store.sp_EliminarMedico" />
+    <FunctionImportMapping FunctionImportName="sp_EliminarPacientes" FunctionName="ClinicaModel.Store.sp_EliminarPacientes" />
+    <FunctionImportMapping FunctionImportName="sp_ListarCantidadEnfermedasdesPaises" FunctionName="ClinicaModel.Store.sp_ListarCantidadEnfermedasdesPaises">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCantidadEnfermedasdesPaises_Result">
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="nombre_enfermedad" ColumnName="nombre_enfermedad" />
+          <ScalarProperty Name="Cantidad_Enfermedad" ColumnName="Cantidad_Enfermedad" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarCantidadEnfermedasdesPaises2" FunctionName="ClinicaModel.Store.sp_ListarCantidadEnfermedasdesPaises2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCantidadEnfermedasdesPaises2_Result">
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="nombre_enfermedad" ColumnName="nombre_enfermedad" />
+          <ScalarProperty Name="Cantidad_Enfermedad" ColumnName="Cantidad_Enfermedad" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarCitas" FunctionName="ClinicaModel.Store.sp_ListarCitas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCitas_Result">
+          <ScalarProperty Name="codigo_cita" ColumnName="codigo_cita" />
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="servicio" ColumnName="servicio" />
+          <ScalarProperty Name="pago" ColumnName="pago" />
+          <ScalarProperty Name="codigo_medico" ColumnName="codigo_medico" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="Orden" ColumnName="Orden" />
+          <ScalarProperty Name="FechaAtencion" ColumnName="FechaAtencion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarCitaxFechaxServicio" FunctionName="ClinicaModel.Store.sp_ListarCitaxFechaxServicio">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCitaxFechaxServicio_Result">
+          <ScalarProperty Name="Codigo_Cita" ColumnName="Codigo_Cita" />
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="Nombre_Sala" ColumnName="Nombre_Sala" />
+          <ScalarProperty Name="especialidad" ColumnName="especialidad" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarDistrito" FunctionName="ClinicaModel.Store.sp_ListarDistrito">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarDistrito_Result">
+          <ScalarProperty Name="dis_id" ColumnName="dis_id" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarEnfermedades" FunctionName="ClinicaModel.Store.sp_ListarEnfermedades">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarEnfermedades_Result">
+          <ScalarProperty Name="codigo_enfermedad" ColumnName="codigo_enfermedad" />
+          <ScalarProperty Name="nombre_enfermedad" ColumnName="nombre_enfermedad" />
+          <ScalarProperty Name="enfermedad_Terminal" ColumnName="enfermedad_Terminal" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarEnfermedadesFechas" FunctionName="ClinicaModel.Store.sp_ListarEnfermedadesFechas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarEnfermedadesFechas_Result">
+          <ScalarProperty Name="codigo_enfermedad" ColumnName="codigo_enfermedad" />
+          <ScalarProperty Name="nombre_enfermedad" ColumnName="nombre_enfermedad" />
+          <ScalarProperty Name="enfermedad_Terminal" ColumnName="enfermedad_Terminal" />
+          <ScalarProperty Name="fecha_diagnostico" ColumnName="fecha_diagnostico" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarEnfermedadesMedicamento" FunctionName="ClinicaModel.Store.sp_ListarEnfermedadesMedicamento">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarEnfermedadesMedicamento_Result">
+          <ScalarProperty Name="codigo_enfermedad" ColumnName="codigo_enfermedad" />
+          <ScalarProperty Name="nombre_enfermedad" ColumnName="nombre_enfermedad" />
+          <ScalarProperty Name="enfermedad_Terminal" ColumnName="enfermedad_Terminal" />
+          <ScalarProperty Name="medicamento" ColumnName="medicamento" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarEnfermedadesMedicamentocontando" FunctionName="ClinicaModel.Store.sp_ListarEnfermedadesMedicamentocontando">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarEnfermedadesMedicamentocontando_Result">
+          <ScalarProperty Name="Cantidad_Enfermedad" ColumnName="Cantidad_Enfermedad" />
+          <ScalarProperty Name="nombre_enfermedad" ColumnName="nombre_enfermedad" />
+          <ScalarProperty Name="medicamento" ColumnName="medicamento" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarEspecialidad" FunctionName="ClinicaModel.Store.sp_ListarEspecialidad">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarEspecialidad_Result">
+          <ScalarProperty Name="codigo_esp" ColumnName="codigo_esp" />
+          <ScalarProperty Name="especialidad" ColumnName="especialidad" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarHorarios" FunctionName="ClinicaModel.Store.sp_ListarHorarios">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarHorarios_Result">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="HoraInicio" ColumnName="HoraInicio" />
+          <ScalarProperty Name="HoraFin" ColumnName="HoraFin" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarMedico" FunctionName="ClinicaModel.Store.sp_ListarMedico">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarMedico_Result">
+          <ScalarProperty Name="codigo_doctor" ColumnName="codigo_doctor" />
+          <ScalarProperty Name="Doctor" ColumnName="Doctor" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="cod_especialidad" ColumnName="cod_especialidad" />
+          <ScalarProperty Name="codigo_horarios" ColumnName="codigo_horarios" />
+          <ScalarProperty Name="Especialidad" ColumnName="Especialidad" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarMedicoNombre" FunctionName="ClinicaModel.Store.sp_ListarMedicoNombre">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarMedicoNombre_Result">
+          <ScalarProperty Name="codigo_doctor" ColumnName="codigo_doctor" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="cod_especialidad" ColumnName="cod_especialidad" />
+          <ScalarProperty Name="codigo_horarios" ColumnName="codigo_horarios" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarPacienteNombre" FunctionName="ClinicaModel.Store.sp_ListarPacienteNombre">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarPacienteNombre_Result">
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="codigo_distrito" ColumnName="codigo_distrito" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarPacientepordistrito2" FunctionName="ClinicaModel.Store.sp_ListarPacientepordistrito2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarPacientepordistrito2_Result">
+          <ScalarProperty Name="Cantidad_Pacientes" ColumnName="Cantidad_Pacientes" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+          <ScalarProperty Name="talla" ColumnName="talla" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarPacientePorEnfermedad" FunctionName="ClinicaModel.Store.sp_ListarPacientePorEnfermedad">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarPacientePorEnfermedad_Result">
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="nombre_enfermedad" ColumnName="nombre_enfermedad" />
+          <ScalarProperty Name="enfermedad_Terminal" ColumnName="enfermedad_Terminal" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarPacientes" FunctionName="ClinicaModel.Store.sp_ListarPacientes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarPacientes_Result">
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="codigo_distrito" ColumnName="codigo_distrito" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+          <ScalarProperty Name="Sala" ColumnName="Sala" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarPaisRegistrados" FunctionName="ClinicaModel.Store.sp_ListarPaisRegistrados">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarPaisRegistrados_Result">
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarSalas" FunctionName="ClinicaModel.Store.sp_ListarSalas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarSalas_Result">
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarServicio" FunctionName="ClinicaModel.Store.sp_ListarServicio" />
+    <FunctionImportMapping FunctionImportName="sp_ListarxPacientexSexoxFecha" FunctionName="ClinicaModel.Store.sp_ListarxPacientexSexoxFecha">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxPacientexSexoxFecha_Result">
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Fecha_Nac" ColumnName="Fecha_Nac" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListaxCantidadxCitasxPacientes" FunctionName="ClinicaModel.Store.sp_ListaxCantidadxCitasxPacientes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListaxCantidadxCitasxPacientes_Result">
+          <ScalarProperty Name="Nombre_Sala" ColumnName="Nombre_Sala" />
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="Cantidad_Citas" ColumnName="Cantidad_Citas" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ReportePaciente" FunctionName="ClinicaModel.Store.sp_ReportePaciente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ReportePaciente_Result">
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="codigo_distrito" ColumnName="codigo_distrito" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+          <ScalarProperty Name="codigo_sala1" ColumnName="codigo_sala1" />
+          <ScalarProperty Name="nombre1" ColumnName="nombre1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ReportMedico" FunctionName="ClinicaModel.Store.sp_ReportMedico">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ReportMedico_Result">
+          <ScalarProperty Name="codigo_doctor" ColumnName="codigo_doctor" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="cod_especialidad" ColumnName="cod_especialidad" />
+          <ScalarProperty Name="filas" ColumnName="filas" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarCantidadEnfermedadesPaises" FunctionName="ClinicaModel.Store.sp_ListarCantidadEnfermedasdesPaises">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCantidadEnfermedasdesPaises_Result">
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="nombre_enfermedad" ColumnName="nombre_enfermedad" />
+          <ScalarProperty Name="Cantidad_Enfermedad" ColumnName="Cantidad_Enfermedad" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarCitaFechaServicio" FunctionName="ClinicaModel.Store.sp_ListarCitaxFechaxServicio">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCitaxFechaxServicio_Result">
+          <ScalarProperty Name="Codigo_Cita" ColumnName="Codigo_Cita" />
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="Nombre_Sala" ColumnName="Nombre_Sala" />
+          <ScalarProperty Name="especialidad" ColumnName="especialidad" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarDoctorXcita" FunctionName="ClinicaModel.Store.sp_DoctorxCitas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_DoctorxCitas_Result">
+          <ScalarProperty Name="Doctor" ColumnName="Doctor" />
+          <ScalarProperty Name="servicio" ColumnName="servicio" />
+          <ScalarProperty Name="numero_sala" ColumnName="numero_sala" />
+          <ScalarProperty Name="cantidad_citas" ColumnName="cantidad_citas" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListaxDoctorxHoraAtencion" FunctionName="ClinicaModel.Store.sp_ListaxDoctorxHoraAtencion">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListaxDoctorxHoraAtencion_Result1">
+          <ScalarProperty Name="codigo_cita" ColumnName="codigo_cita" />
+          <ScalarProperty Name="Paciente" ColumnName="Paciente" />
+          <ScalarProperty Name="Sala" ColumnName="Sala" />
+          <ScalarProperty Name="Consultorio" ColumnName="Consultorio" />
+          <ScalarProperty Name="FechaAtencion" ColumnName="FechaAtencion" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListaDoctor2" FunctionName="ClinicaModel.Store.sp_ListaxDoctorxHoraAtencion">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListaxDoctorxHoraAtencion_Result1">
+          <ScalarProperty Name="codigo_cita" ColumnName="codigo_cita" />
+          <ScalarProperty Name="Paciente" ColumnName="Paciente" />
+          <ScalarProperty Name="Sala" ColumnName="Sala" />
+          <ScalarProperty Name="Consultorio" ColumnName="Consultorio" />
+          <ScalarProperty Name="FechaAtencion" ColumnName="FechaAtencion" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListaxCantidadxCitasxPacientes2" FunctionName="ClinicaModel.Store.sp_ListaxCantidadxCitasxPacientes2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListaxCantidadxCitasxPacientes2_Result">
+          <ScalarProperty Name="Nombre_Sala" ColumnName="Nombre_Sala" />
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="Cantidad_Citas" ColumnName="Cantidad_Citas" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListaCantidadCitasPacientes2" FunctionName="ClinicaModel.Store.sp_ListaxCantidadxCitasxPacientes2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListaxCantidadxCitasxPacientes2_Result">
+          <ScalarProperty Name="Nombre_Sala" ColumnName="Nombre_Sala" />
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="Cantidad_Citas" ColumnName="Cantidad_Citas" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_listarpacientes2" FunctionName="ClinicaModel.Store.sp_listarpacientes2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_listarpacientes2_Result">
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+          <ScalarProperty Name="Sala" ColumnName="Sala" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListaPacientes2" FunctionName="ClinicaModel.Store.sp_listarpacientes2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_listarpacientes2_Result">
+          <ScalarProperty Name="codigo_paciente" ColumnName="codigo_paciente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+          <ScalarProperty Name="Sala" ColumnName="Sala" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarxPacientexSexoxFecha2" FunctionName="ClinicaModel.Store.sp_ListarxPacientexSexoxFecha2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxPacientexSexoxFecha2_Result">
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Fecha_Nac" ColumnName="Fecha_Nac" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarxPacientexSexoxFecha2" FunctionName="ClinicaModel.Store.sp_ListarxPacientexSexoxFecha2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxPacientexSexoxFecha2_Result">
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Fecha_Nac" ColumnName="Fecha_Nac" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarxPacientexSexoxFecha3" FunctionName="ClinicaModel.Store.sp_ListarxPacientexSexoxFecha3">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxPacientexSexoxFecha3_Result">
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Fecha_Nac" ColumnName="Fecha_Nac" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarxPacientexSexoxFecha3" FunctionName="ClinicaModel.Store.sp_ListarxPacientexSexoxFecha3">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxPacientexSexoxFecha3_Result">
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Fecha_Nac" ColumnName="Fecha_Nac" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarxPacientexSexoxFechaxDistrito" FunctionName="ClinicaModel.Store.sp_ListarxPacientexSexoxFechaxDistrito">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxPacientexSexoxFechaxDistrito_Result">
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Fecha_Nac" ColumnName="Fecha_Nac" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="emergencia" ColumnName="emergencia" />
+          <ScalarProperty Name="ocupacion" ColumnName="ocupacion" />
+          <ScalarProperty Name="alergia" ColumnName="alergia" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarxCantidadxPacientexSexoxDistrito" FunctionName="ClinicaModel.Store.sp_ListarxCantidadxPacientexSexoxDistrito">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxCantidadxPacientexSexoxDistrito_Result">
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="Cantidad_Paciente_Distrito" ColumnName="Cantidad_Paciente_Distrito" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarxCantidadxPacientexSexoxDistrito" FunctionName="ClinicaModel.Store.sp_ListarxCantidadxPacientexSexoxDistrito">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxCantidadxPacientexSexoxDistrito_Result">
+          <ScalarProperty Name="Nombre_Paciente" ColumnName="Nombre_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+          <ScalarProperty Name="Cantidad_Paciente_Distrito" ColumnName="Cantidad_Paciente_Distrito" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarxCantidadxPacientexSexoxDistrito2" FunctionName="ClinicaModel.Store.sp_ListarxCantidadxPacientexSexoxDistrito2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxCantidadxPacientexSexoxDistrito2_Result">
+          <ScalarProperty Name="Cantidad_Paciente" ColumnName="Cantidad_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarxCantidadxPacientexSexoxDistrito2" FunctionName="ClinicaModel.Store.sp_ListarxCantidadxPacientexSexoxDistrito2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxCantidadxPacientexSexoxDistrito2_Result">
+          <ScalarProperty Name="Cantidad_Paciente" ColumnName="Cantidad_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarxCantidadxPacientexSexoxSala" FunctionName="ClinicaModel.Store.sp_ListarxCantidadxPacientexSexoxSala">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxCantidadxPacientexSexoxSala_Result">
+          <ScalarProperty Name="Cantidad_Paciente" ColumnName="Cantidad_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarxCantidadxPacientexSexoxSala" FunctionName="ClinicaModel.Store.sp_ListarxCantidadxPacientexSexoxSala">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxCantidadxPacientexSexoxSala_Result">
+          <ScalarProperty Name="Cantidad_Paciente" ColumnName="Cantidad_Paciente" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="codigo_sala" ColumnName="codigo_sala" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarCantidadPacientesxDistritoxDoctor" FunctionName="ClinicaModel.Store.sp_ListarCantidadPacientesxDistritoxDoctor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCantidadPacientesxDistritoxDoctor_Result">
+          <ScalarProperty Name="cantidad_pacientes" ColumnName="cantidad_pacientes" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarCantidadPacientesxSexoxDistritoxDoctor" FunctionName="ClinicaModel.Store.sp_ListarCantidadPacientesxSexoxDistritoxDoctor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCantidadPacientesxSexoxDistritoxDoctor_Result">
+          <ScalarProperty Name="cantidad_pacientes" ColumnName="cantidad_pacientes" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+          <ScalarProperty Name="Doctor" ColumnName="Doctor" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarCantidadPacientesxSexoxDistritoxDoctor" FunctionName="ClinicaModel.Store.sp_ListarCantidadPacientesxSexoxDistritoxDoctor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCantidadPacientesxSexoxDistritoxDoctor_Result">
+          <ScalarProperty Name="cantidad_pacientes" ColumnName="cantidad_pacientes" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+          <ScalarProperty Name="Doctor" ColumnName="Doctor" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarCantidadPacientesxDistritoxDoctor" FunctionName="ClinicaModel.Store.sp_ListarCantidadPacientesxDistritoxDoctor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCantidadPacientesxDistritoxDoctor_Result">
+          <ScalarProperty Name="cantidad_pacientes" ColumnName="cantidad_pacientes" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarCantidadPacientesxDistritoxDoctor2" FunctionName="ClinicaModel.Store.sp_ListarCantidadPacientesxDistritoxDoctor2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCantidadPacientesxDistritoxDoctor2_Result">
+          <ScalarProperty Name="cantidad_pacientes" ColumnName="cantidad_pacientes" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+          <ScalarProperty Name="Nombre_doctor" ColumnName="Nombre_doctor" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarCantidadPacientesxDistritoxDoctor2" FunctionName="ClinicaModel.Store.sp_ListarCantidadPacientesxDistritoxDoctor2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarCantidadPacientesxDistritoxDoctor2_Result">
+          <ScalarProperty Name="cantidad_pacientes" ColumnName="cantidad_pacientes" />
+          <ScalarProperty Name="dis_nombre" ColumnName="dis_nombre" />
+          <ScalarProperty Name="Nombre_doctor" ColumnName="Nombre_doctor" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ListarxCantidadxPacientexSalaxPaisxServicio" FunctionName="ClinicaModel.Store.sp_ListarxCantidadxPacientexSalaxPaisxServicio">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxCantidadxPacientexSalaxPaisxServicio_Result">
+          <ScalarProperty Name="Pais" ColumnName="Pais" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Codigo_Sala" ColumnName="Codigo_Sala" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListarxCantidadxPacientexSalaxPaisxServicio" FunctionName="ClinicaModel.Store.sp_ListarxCantidadxPacientexSalaxPaisxServicio">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaModel.sp_ListarxCantidadxPacientexSalaxPaisxServicio_Result">
+          <ScalarProperty Name="Pais" ColumnName="Pais" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Codigo_Sala" ColumnName="Codigo_Sala" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

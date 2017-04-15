@@ -1,0 +1,878 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ClinicaModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ClinicaEntities3" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Cita" EntityType="ClinicaModel.Cita" />
+    <EntitySet Name="Diagnostico" EntityType="ClinicaModel.Diagnostico" />
+    <EntitySet Name="Distritos" EntityType="ClinicaModel.Distritos" />
+    <EntitySet Name="Doctor" EntityType="ClinicaModel.Doctor" />
+    <EntitySet Name="Enfermedad" EntityType="ClinicaModel.Enfermedad" />
+    <EntitySet Name="Especialidad" EntityType="ClinicaModel.Especialidad" />
+    <EntitySet Name="HorarioAtencion" EntityType="ClinicaModel.HorarioAtencion" />
+    <EntitySet Name="Pacientes" EntityType="ClinicaModel.Pacientes" />
+    <EntitySet Name="Sala" EntityType="ClinicaModel.Sala" />
+    <EntitySet Name="Usuarios" EntityType="ClinicaModel.Usuarios" />
+    <AssociationSet Name="fk_Cita_Diagnostico" Association="ClinicaModel.fk_Cita_Diagnostico">
+      <End Role="Cita" EntitySet="Cita" />
+      <End Role="Diagnostico" EntitySet="Diagnostico" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Cita_Doctor" Association="ClinicaModel.fk_Cita_Doctor">
+      <End Role="Doctor" EntitySet="Doctor" />
+      <End Role="Cita" EntitySet="Cita" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Cita_Pacientes" Association="ClinicaModel.fk_Cita_Pacientes">
+      <End Role="Pacientes" EntitySet="Pacientes" />
+      <End Role="Cita" EntitySet="Cita" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Cita_Sala" Association="ClinicaModel.fk_Cita_Sala">
+      <End Role="Sala" EntitySet="Sala" />
+      <End Role="Cita" EntitySet="Cita" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Enfermedad_Diagnostico" Association="ClinicaModel.fk_Enfermedad_Diagnostico">
+      <End Role="Enfermedad" EntitySet="Enfermedad" />
+      <End Role="Diagnostico" EntitySet="Diagnostico" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Pacientes_Diagnostico" Association="ClinicaModel.fk_Pacientes_Diagnostico">
+      <End Role="Pacientes" EntitySet="Pacientes" />
+      <End Role="Diagnostico" EntitySet="Diagnostico" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Pacientes_Distritos" Association="ClinicaModel.fk_Pacientes_Distritos">
+      <End Role="Distritos" EntitySet="Distritos" />
+      <End Role="Pacientes" EntitySet="Pacientes" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Doctor_Especialidad" Association="ClinicaModel.fk_Doctor_Especialidad">
+      <End Role="Especialidad" EntitySet="Especialidad" />
+      <End Role="Doctor" EntitySet="Doctor" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Doctor_Horario" Association="ClinicaModel.fk_Doctor_Horario">
+      <End Role="HorarioAtencion" EntitySet="HorarioAtencion" />
+      <End Role="Doctor" EntitySet="Doctor" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Pacientes_Sala" Association="ClinicaModel.fk_Pacientes_Sala">
+      <End Role="Sala" EntitySet="Sala" />
+      <End Role="Pacientes" EntitySet="Pacientes" />
+    </AssociationSet>
+    <FunctionImport Name="sp_ActualizarCita">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+      <Parameter Name="codpa" Mode="In" Type="String" />
+      <Parameter Name="serv" Mode="In" Type="String" />
+      <Parameter Name="pago" Mode="In" Type="Decimal" />
+      <Parameter Name="come" Mode="In" Type="String" />
+      <Parameter Name="fecr" Mode="In" Type="DateTime" />
+      <Parameter Name="ord" Mode="In" Type="String" />
+      <Parameter Name="feca" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ActualizarMedico">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+      <Parameter Name="nom" Mode="In" Type="String" />
+      <Parameter Name="ape" Mode="In" Type="String" />
+      <Parameter Name="dire" Mode="In" Type="String" />
+      <Parameter Name="telf" Mode="In" Type="String" />
+      <Parameter Name="ema" Mode="In" Type="String" />
+      <Parameter Name="code" Mode="In" Type="String" />
+      <Parameter Name="codh" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ActualizarPacientes">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+      <Parameter Name="nom" Mode="In" Type="String" />
+      <Parameter Name="ape" Mode="In" Type="String" />
+      <Parameter Name="fecnac" Mode="In" Type="DateTime" />
+      <Parameter Name="sex" Mode="In" Type="String" />
+      <Parameter Name="cods" Mode="In" Type="String" />
+      <Parameter Name="pais" Mode="In" Type="String" />
+      <Parameter Name="codd" Mode="In" Type="String" />
+      <Parameter Name="emer" Mode="In" Type="String" />
+      <Parameter Name="ocup" Mode="In" Type="String" />
+      <Parameter Name="aler" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AgregarHorario">
+      <Parameter Name="codho" Mode="In" Type="String" />
+      <Parameter Name="fecaini" Mode="In" Type="DateTime" />
+      <Parameter Name="fecafin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AgregarMedico">
+      <Parameter Name="nom" Mode="In" Type="String" />
+      <Parameter Name="ape" Mode="In" Type="String" />
+      <Parameter Name="dire" Mode="In" Type="String" />
+      <Parameter Name="telf" Mode="In" Type="String" />
+      <Parameter Name="ema" Mode="In" Type="String" />
+      <Parameter Name="code" Mode="In" Type="String" />
+      <Parameter Name="codh" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AgregarPaciente">
+      <Parameter Name="nom" Mode="In" Type="String" />
+      <Parameter Name="ape" Mode="In" Type="String" />
+      <Parameter Name="fecnac" Mode="In" Type="DateTime" />
+      <Parameter Name="sex" Mode="In" Type="String" />
+      <Parameter Name="cods" Mode="In" Type="String" />
+      <Parameter Name="pais" Mode="In" Type="String" />
+      <Parameter Name="codd" Mode="In" Type="String" />
+      <Parameter Name="emer" Mode="In" Type="String" />
+      <Parameter Name="ocup" Mode="In" Type="String" />
+      <Parameter Name="aler" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_CitasPaciente" ReturnType="Collection(ClinicaModel.sp_CitasPaciente_Result)">
+      <Parameter Name="codPaciente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ConsultarDistritos" ReturnType="Collection(ClinicaModel.sp_ConsultarDistritos_Result)">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ConsultarEnfermedad" ReturnType="Collection(ClinicaModel.sp_ConsultarEnfermedad_Result)">
+      <Parameter Name="ecod" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ConsultarHorarios" ReturnType="Collection(ClinicaModel.sp_ConsultarHorarios_Result)">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ConsultarMedicos" ReturnType="Collection(ClinicaModel.sp_ConsultarMedicos_Result)">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ConsultarPacientes" ReturnType="Collection(ClinicaModel.sp_ConsultarPacientes_Result)">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ConsultarSala" ReturnType="Collection(ClinicaModel.sp_ConsultarSala_Result)">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DoctorxCitas" ReturnType="Collection(ClinicaModel.sp_DoctorxCitas_Result)">
+      <Parameter Name="codDoctor" Mode="In" Type="String" />
+      <Parameter Name="servicio" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_EliminarCita">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_EliminarMedico">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_EliminarPacientes">
+      <Parameter Name="vcod" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarCantidadEnfermedasdesPaises" ReturnType="Collection(ClinicaModel.sp_ListarCantidadEnfermedasdesPaises_Result)">
+      <Parameter Name="codEnfermedad" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarCantidadEnfermedasdesPaises2" ReturnType="Collection(ClinicaModel.sp_ListarCantidadEnfermedasdesPaises2_Result)">
+      <Parameter Name="pais" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarCitas" ReturnType="Collection(ClinicaModel.sp_ListarCitas_Result)" />
+    <FunctionImport Name="sp_ListarCitaxFechaxServicio" ReturnType="Collection(ClinicaModel.sp_ListarCitaxFechaxServicio_Result)">
+      <Parameter Name="codEspec" Mode="In" Type="String" />
+      <Parameter Name="sex" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarDistrito" ReturnType="Collection(ClinicaModel.sp_ListarDistrito_Result)" />
+    <FunctionImport Name="sp_ListarEnfermedades" ReturnType="Collection(ClinicaModel.sp_ListarEnfermedades_Result)" />
+    <FunctionImport Name="sp_ListarEnfermedadesFechas" ReturnType="Collection(ClinicaModel.sp_ListarEnfermedadesFechas_Result)">
+      <Parameter Name="cod_enf" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarEnfermedadesMedicamento" ReturnType="Collection(ClinicaModel.sp_ListarEnfermedadesMedicamento_Result)">
+      <Parameter Name="cod_enf" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarEnfermedadesMedicamentocontando" ReturnType="Collection(ClinicaModel.sp_ListarEnfermedadesMedicamentocontando_Result)">
+      <Parameter Name="cod_enf" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarEspecialidad" ReturnType="Collection(ClinicaModel.sp_ListarEspecialidad_Result)" />
+    <FunctionImport Name="sp_ListarHorarios" ReturnType="Collection(ClinicaModel.sp_ListarHorarios_Result)" />
+    <FunctionImport Name="sp_ListarMedico" ReturnType="Collection(ClinicaModel.sp_ListarMedico_Result)" />
+    <FunctionImport Name="sp_ListarMedicoNombre" ReturnType="Collection(ClinicaModel.sp_ListarMedicoNombre_Result)">
+      <Parameter Name="nom" Mode="In" Type="String" />
+      <Parameter Name="ape" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarPacienteNombre" ReturnType="Collection(ClinicaModel.sp_ListarPacienteNombre_Result)">
+      <Parameter Name="nom" Mode="In" Type="String" />
+      <Parameter Name="ape" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarPacientepordistrito2" ReturnType="Collection(ClinicaModel.sp_ListarPacientepordistrito2_Result)">
+      <Parameter Name="cod_enf" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarPacientePorEnfermedad" ReturnType="Collection(ClinicaModel.sp_ListarPacientePorEnfermedad_Result)">
+      <Parameter Name="codEnfermedad" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarPacientes" ReturnType="Collection(ClinicaModel.sp_ListarPacientes_Result)" />
+    <FunctionImport Name="sp_ListarPaisRegistrados" ReturnType="Collection(ClinicaModel.sp_ListarPaisRegistrados_Result)">
+      <Parameter Name="pais" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarSalas" ReturnType="Collection(ClinicaModel.sp_ListarSalas_Result)" />
+    <FunctionImport Name="sp_ListarServicio" ReturnType="Collection(String)" />
+    <FunctionImport Name="sp_ListarxPacientexSexoxFecha" ReturnType="Collection(ClinicaModel.sp_ListarxPacientexSexoxFecha_Result)">
+      <Parameter Name="Sex" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListaxCantidadxCitasxPacientes" ReturnType="Collection(ClinicaModel.sp_ListaxCantidadxCitasxPacientes_Result)">
+      <Parameter Name="Sala" Mode="In" Type="String" />
+      <Parameter Name="sexo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ReportePaciente" ReturnType="Collection(ClinicaModel.sp_ReportePaciente_Result)">
+      <Parameter Name="nom" Mode="In" Type="String" />
+      <Parameter Name="ape" Mode="In" Type="String" />
+      <Parameter Name="noms" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ReportMedico" ReturnType="Collection(ClinicaModel.sp_ReportMedico_Result)">
+      <Parameter Name="desde" Mode="In" Type="Int32" />
+      <Parameter Name="hasta" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ListarCantidadEnfermedadesPaises" ReturnType="Collection(ClinicaModel.sp_ListarCantidadEnfermedasdesPaises_Result)">
+      <Parameter Name="codEnfermedad" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ListarCitaFechaServicio" ReturnType="Collection(ClinicaModel.sp_ListarCitaxFechaxServicio_Result)">
+      <Parameter Name="codEspec" Mode="In" Type="String" />
+      <Parameter Name="sex" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="ListarDoctorXcita" ReturnType="Collection(ClinicaModel.sp_DoctorxCitas_Result)">
+      <Parameter Name="codDoctor" Mode="In" Type="String" />
+      <Parameter Name="servicio" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListaxDoctorxHoraAtencion" ReturnType="Collection(ClinicaModel.sp_ListaxDoctorxHoraAtencion_Result1)">
+      <Parameter Name="codDoctor" Mode="In" Type="String" />
+      <Parameter Name="sexo" Mode="In" Type="String" />
+      <Parameter Name="pais" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="ListaDoctor2" ReturnType="Collection(ClinicaModel.sp_ListaxDoctorxHoraAtencion_Result1)">
+      <Parameter Name="codDoctor" Mode="In" Type="String" />
+      <Parameter Name="sexo" Mode="In" Type="String" />
+      <Parameter Name="pais" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListaxCantidadxCitasxPacientes2" ReturnType="Collection(ClinicaModel.sp_ListaxCantidadxCitasxPacientes2_Result)">
+      <Parameter Name="Sala" Mode="In" Type="String" />
+      <Parameter Name="sexo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ListaCantidadCitasPacientes2" ReturnType="Collection(ClinicaModel.sp_ListaxCantidadxCitasxPacientes2_Result)">
+      <Parameter Name="Sala" Mode="In" Type="String" />
+      <Parameter Name="sexo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_listarpacientes2" ReturnType="Collection(ClinicaModel.sp_listarpacientes2_Result)" />
+    <FunctionImport Name="ListaPacientes2" ReturnType="Collection(ClinicaModel.sp_listarpacientes2_Result)" />
+    <FunctionImport Name="sp_ListarxPacientexSexoxFecha2" ReturnType="Collection(ClinicaModel.sp_ListarxPacientexSexoxFecha2_Result)">
+      <Parameter Name="Sex" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="ListarxPacientexSexoxFecha2" ReturnType="Collection(ClinicaModel.sp_ListarxPacientexSexoxFecha2_Result)">
+      <Parameter Name="Sex" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarxPacientexSexoxFecha3" ReturnType="Collection(ClinicaModel.sp_ListarxPacientexSexoxFecha3_Result)">
+      <Parameter Name="Sex" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="ListarxPacientexSexoxFecha3" ReturnType="Collection(ClinicaModel.sp_ListarxPacientexSexoxFecha3_Result)">
+      <Parameter Name="Sex" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarxPacientexSexoxFechaxDistrito" ReturnType="Collection(ClinicaModel.sp_ListarxPacientexSexoxFechaxDistrito_Result)">
+      <Parameter Name="Sex" Mode="In" Type="String" />
+      <Parameter Name="Dis" Mode="In" Type="String" />
+      <Parameter Name="fec_ini" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_fin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarxCantidadxPacientexSexoxDistrito" ReturnType="Collection(ClinicaModel.sp_ListarxCantidadxPacientexSexoxDistrito_Result)">
+      <Parameter Name="Sex" Mode="In" Type="String" />
+      <Parameter Name="dis" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ListarxCantidadxPacientexSexoxDistrito" ReturnType="Collection(ClinicaModel.sp_ListarxCantidadxPacientexSexoxDistrito_Result)">
+      <Parameter Name="Sex" Mode="In" Type="String" />
+      <Parameter Name="dis" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarxCantidadxPacientexSexoxDistrito2" ReturnType="Collection(ClinicaModel.sp_ListarxCantidadxPacientexSexoxDistrito2_Result)">
+      <Parameter Name="Sex" Mode="In" Type="String" />
+      <Parameter Name="dis" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ListarxCantidadxPacientexSexoxDistrito2" ReturnType="Collection(ClinicaModel.sp_ListarxCantidadxPacientexSexoxDistrito2_Result)">
+      <Parameter Name="Sex" Mode="In" Type="String" />
+      <Parameter Name="dis" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarxCantidadxPacientexSexoxSala" ReturnType="Collection(ClinicaModel.sp_ListarxCantidadxPacientexSexoxSala_Result)">
+      <Parameter Name="sal" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ListarxCantidadxPacientexSexoxSala" ReturnType="Collection(ClinicaModel.sp_ListarxCantidadxPacientexSexoxSala_Result)">
+      <Parameter Name="sal" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarCantidadPacientesxDistritoxDoctor" ReturnType="Collection(ClinicaModel.sp_ListarCantidadPacientesxDistritoxDoctor_Result)">
+      <Parameter Name="doc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarCantidadPacientesxSexoxDistritoxDoctor" ReturnType="Collection(ClinicaModel.sp_ListarCantidadPacientesxSexoxDistritoxDoctor_Result)">
+      <Parameter Name="doc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ListarCantidadPacientesxSexoxDistritoxDoctor" ReturnType="Collection(ClinicaModel.sp_ListarCantidadPacientesxSexoxDistritoxDoctor_Result)">
+      <Parameter Name="doc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ListarCantidadPacientesxDistritoxDoctor" ReturnType="Collection(ClinicaModel.sp_ListarCantidadPacientesxDistritoxDoctor_Result)">
+      <Parameter Name="doc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarCantidadPacientesxDistritoxDoctor2" ReturnType="Collection(ClinicaModel.sp_ListarCantidadPacientesxDistritoxDoctor2_Result)">
+      <Parameter Name="doc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ListarCantidadPacientesxDistritoxDoctor2" ReturnType="Collection(ClinicaModel.sp_ListarCantidadPacientesxDistritoxDoctor2_Result)">
+      <Parameter Name="doc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ListarxCantidadxPacientexSalaxPaisxServicio" ReturnType="Collection(ClinicaModel.sp_ListarxCantidadxPacientexSalaxPaisxServicio_Result)">
+      <Parameter Name="servicio" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ListarxCantidadxPacientexSalaxPaisxServicio" ReturnType="Collection(ClinicaModel.sp_ListarxCantidadxPacientexSalaxPaisxServicio_Result)">
+      <Parameter Name="servicio" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Cita">
+    <Key>
+      <PropertyRef Name="codigo_cita" />
+    </Key>
+    <Property Name="codigo_cita" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="codigo_paciente" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="codigo_sala" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="servicio" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="pago" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="codigo_medico" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="FechaRegistro" Type="DateTime" Precision="0" />
+    <Property Name="Orden" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="FechaAtencion" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Diagnostico" Relationship="ClinicaModel.fk_Cita_Diagnostico" FromRole="Cita" ToRole="Diagnostico" />
+    <NavigationProperty Name="Doctor" Relationship="ClinicaModel.fk_Cita_Doctor" FromRole="Cita" ToRole="Doctor" />
+    <NavigationProperty Name="Pacientes" Relationship="ClinicaModel.fk_Cita_Pacientes" FromRole="Cita" ToRole="Pacientes" />
+    <NavigationProperty Name="Sala" Relationship="ClinicaModel.fk_Cita_Sala" FromRole="Cita" ToRole="Sala" />
+  </EntityType>
+  <EntityType Name="Diagnostico">
+    <Key>
+      <PropertyRef Name="codigo_diagnostico" />
+    </Key>
+    <Property Name="codigo_diagnostico" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="codigo_cita" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="codigo_paciente" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="codigo_enfermedad" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="medicamento" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="talla" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="enf_terminal" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" />
+    <Property Name="pesopaciente" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="fecha_diagnostico" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Cita" Relationship="ClinicaModel.fk_Cita_Diagnostico" FromRole="Diagnostico" ToRole="Cita" />
+    <NavigationProperty Name="Enfermedad" Relationship="ClinicaModel.fk_Enfermedad_Diagnostico" FromRole="Diagnostico" ToRole="Enfermedad" />
+    <NavigationProperty Name="Pacientes" Relationship="ClinicaModel.fk_Pacientes_Diagnostico" FromRole="Diagnostico" ToRole="Pacientes" />
+  </EntityType>
+  <EntityType Name="Distritos">
+    <Key>
+      <PropertyRef Name="dis_id" />
+    </Key>
+    <Property Name="dis_id" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="dis_nombre" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Pacientes" Relationship="ClinicaModel.fk_Pacientes_Distritos" FromRole="Distritos" ToRole="Pacientes" />
+  </EntityType>
+  <EntityType Name="Doctor">
+    <Key>
+      <PropertyRef Name="codigo_doctor" />
+    </Key>
+    <Property Name="codigo_doctor" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="apellido" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="direccion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="telefono" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="cod_especialidad" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="codigo_horarios" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="Cita" Relationship="ClinicaModel.fk_Cita_Doctor" FromRole="Doctor" ToRole="Cita" />
+    <NavigationProperty Name="Especialidad" Relationship="ClinicaModel.fk_Doctor_Especialidad" FromRole="Doctor" ToRole="Especialidad" />
+    <NavigationProperty Name="HorarioAtencion" Relationship="ClinicaModel.fk_Doctor_Horario" FromRole="Doctor" ToRole="HorarioAtencion" />
+  </EntityType>
+  <EntityType Name="Enfermedad">
+    <Key>
+      <PropertyRef Name="codigo_enfermedad" />
+    </Key>
+    <Property Name="codigo_enfermedad" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="nombre_enfermedad" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="enfermedad_Terminal" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Diagnostico" Relationship="ClinicaModel.fk_Enfermedad_Diagnostico" FromRole="Enfermedad" ToRole="Diagnostico" />
+  </EntityType>
+  <EntityType Name="Especialidad">
+    <Key>
+      <PropertyRef Name="codigo_esp" />
+    </Key>
+    <Property Name="codigo_esp" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="especialidad1" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Doctor" Relationship="ClinicaModel.fk_Doctor_Especialidad" FromRole="Especialidad" ToRole="Doctor" />
+  </EntityType>
+  <EntityType Name="HorarioAtencion">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="HoraInicio" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="HoraFin" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Doctor" Relationship="ClinicaModel.fk_Doctor_Horario" FromRole="HorarioAtencion" ToRole="Doctor" />
+  </EntityType>
+  <EntityType Name="Pacientes">
+    <Key>
+      <PropertyRef Name="codigo_paciente" />
+    </Key>
+    <Property Name="codigo_paciente" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="apellido" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fecha_nac" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="sexo" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="codigo_sala" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="pais" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="codigo_distrito" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="emergencia" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ocupacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="alergia" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Cita" Relationship="ClinicaModel.fk_Cita_Pacientes" FromRole="Pacientes" ToRole="Cita" />
+    <NavigationProperty Name="Diagnostico" Relationship="ClinicaModel.fk_Pacientes_Diagnostico" FromRole="Pacientes" ToRole="Diagnostico" />
+    <NavigationProperty Name="Distritos" Relationship="ClinicaModel.fk_Pacientes_Distritos" FromRole="Pacientes" ToRole="Distritos" />
+    <NavigationProperty Name="Sala" Relationship="ClinicaModel.fk_Pacientes_Sala" FromRole="Pacientes" ToRole="Sala" />
+  </EntityType>
+  <EntityType Name="Sala">
+    <Key>
+      <PropertyRef Name="codigo_sala" />
+    </Key>
+    <Property Name="codigo_sala" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Cita" Relationship="ClinicaModel.fk_Cita_Sala" FromRole="Sala" ToRole="Cita" />
+    <NavigationProperty Name="Pacientes" Relationship="ClinicaModel.fk_Pacientes_Sala" FromRole="Sala" ToRole="Pacientes" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="usuario" />
+    </Key>
+    <Property Name="codigo" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="usuario" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="contraseña" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <Association Name="fk_Cita_Diagnostico">
+    <End Role="Cita" Type="ClinicaModel.Cita" Multiplicity="1" />
+    <End Role="Diagnostico" Type="ClinicaModel.Diagnostico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cita">
+        <PropertyRef Name="codigo_cita" />
+      </Principal>
+      <Dependent Role="Diagnostico">
+        <PropertyRef Name="codigo_cita" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Cita_Doctor">
+    <End Role="Doctor" Type="ClinicaModel.Doctor" Multiplicity="0..1" />
+    <End Role="Cita" Type="ClinicaModel.Cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="codigo_doctor" />
+      </Principal>
+      <Dependent Role="Cita">
+        <PropertyRef Name="codigo_medico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Cita_Pacientes">
+    <End Role="Pacientes" Type="ClinicaModel.Pacientes" Multiplicity="1" />
+    <End Role="Cita" Type="ClinicaModel.Cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pacientes">
+        <PropertyRef Name="codigo_paciente" />
+      </Principal>
+      <Dependent Role="Cita">
+        <PropertyRef Name="codigo_paciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Cita_Sala">
+    <End Role="Sala" Type="ClinicaModel.Sala" Multiplicity="1" />
+    <End Role="Cita" Type="ClinicaModel.Cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sala">
+        <PropertyRef Name="codigo_sala" />
+      </Principal>
+      <Dependent Role="Cita">
+        <PropertyRef Name="codigo_sala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Enfermedad_Diagnostico">
+    <End Role="Enfermedad" Type="ClinicaModel.Enfermedad" Multiplicity="1" />
+    <End Role="Diagnostico" Type="ClinicaModel.Diagnostico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Enfermedad">
+        <PropertyRef Name="codigo_enfermedad" />
+      </Principal>
+      <Dependent Role="Diagnostico">
+        <PropertyRef Name="codigo_enfermedad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Pacientes_Diagnostico">
+    <End Role="Pacientes" Type="ClinicaModel.Pacientes" Multiplicity="1" />
+    <End Role="Diagnostico" Type="ClinicaModel.Diagnostico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pacientes">
+        <PropertyRef Name="codigo_paciente" />
+      </Principal>
+      <Dependent Role="Diagnostico">
+        <PropertyRef Name="codigo_paciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Pacientes_Distritos">
+    <End Role="Distritos" Type="ClinicaModel.Distritos" Multiplicity="1" />
+    <End Role="Pacientes" Type="ClinicaModel.Pacientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Distritos">
+        <PropertyRef Name="dis_id" />
+      </Principal>
+      <Dependent Role="Pacientes">
+        <PropertyRef Name="codigo_distrito" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Doctor_Especialidad">
+    <End Role="Especialidad" Type="ClinicaModel.Especialidad" Multiplicity="0..1" />
+    <End Role="Doctor" Type="ClinicaModel.Doctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Especialidad">
+        <PropertyRef Name="codigo_esp" />
+      </Principal>
+      <Dependent Role="Doctor">
+        <PropertyRef Name="cod_especialidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Doctor_Horario">
+    <End Role="HorarioAtencion" Type="ClinicaModel.HorarioAtencion" Multiplicity="1" />
+    <End Role="Doctor" Type="ClinicaModel.Doctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HorarioAtencion">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="Doctor">
+        <PropertyRef Name="codigo_horarios" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Pacientes_Sala">
+    <End Role="Sala" Type="ClinicaModel.Sala" Multiplicity="1" />
+    <End Role="Pacientes" Type="ClinicaModel.Pacientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sala">
+        <PropertyRef Name="codigo_sala" />
+      </Principal>
+      <Dependent Role="Pacientes">
+        <PropertyRef Name="codigo_sala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="sp_CitasPaciente_Result">
+    <Property Type="String" Name="codigo_paciente" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="sexo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="numero_sala" Nullable="false" MaxLength="3" />
+    <Property Type="Int32" Name="cantidad_citas" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ConsultarDistritos_Result">
+    <Property Type="String" Name="dis_id" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="dis_nombre" Nullable="false" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_ConsultarEnfermedad_Result">
+    <Property Type="String" Name="codigo_enfermedad" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre_enfermedad" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="enfermedad_Terminal" Nullable="false" MaxLength="2" />
+  </ComplexType>
+  <ComplexType Name="sp_ConsultarHorarios_Result">
+    <Property Type="String" Name="codigo" Nullable="false" MaxLength="3" />
+    <Property Type="DateTime" Name="HoraInicio" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="HoraFin" Nullable="false" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_ConsultarMedicos_Result">
+    <Property Type="String" Name="codigo_doctor" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_ConsultarPacientes_Result">
+    <Property Type="String" Name="codigo_paciente" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_ConsultarSala_Result">
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_DoctorxCitas_Result">
+    <Property Type="String" Name="Doctor" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="servicio" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="numero_sala" Nullable="false" MaxLength="3" />
+    <Property Type="Int32" Name="cantidad_citas" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarCantidadEnfermedasdesPaises_Result">
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="nombre_enfermedad" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="Cantidad_Enfermedad" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarCantidadEnfermedasdesPaises2_Result">
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="nombre_enfermedad" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="Cantidad_Enfermedad" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarCitas_Result">
+    <Property Type="String" Name="codigo_cita" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="codigo_paciente" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="servicio" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="pago" Nullable="false" Precision="18" Scale="0" />
+    <Property Type="String" Name="codigo_medico" Nullable="true" MaxLength="3" />
+    <Property Type="DateTime" Name="FechaRegistro" Nullable="true" />
+    <Property Type="String" Name="Orden" Nullable="true" MaxLength="3" />
+    <Property Type="DateTime" Name="FechaAtencion" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarCitaxFechaxServicio_Result">
+    <Property Type="String" Name="Codigo_Cita" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="Nombre_Paciente" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="Nombre_Sala" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="especialidad" Nullable="false" MaxLength="40" />
+    <Property Type="DateTime" Name="FechaRegistro" Nullable="true" />
+    <Property Type="String" Name="sexo" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarDistrito_Result">
+    <Property Type="String" Name="dis_id" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="dis_nombre" Nullable="false" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarEnfermedades_Result">
+    <Property Type="String" Name="codigo_enfermedad" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre_enfermedad" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="enfermedad_Terminal" Nullable="false" MaxLength="2" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarEnfermedadesFechas_Result">
+    <Property Type="String" Name="codigo_enfermedad" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre_enfermedad" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="enfermedad_Terminal" Nullable="false" MaxLength="2" />
+    <Property Type="DateTime" Name="fecha_diagnostico" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarEnfermedadesMedicamento_Result">
+    <Property Type="String" Name="codigo_enfermedad" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre_enfermedad" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="enfermedad_Terminal" Nullable="false" MaxLength="2" />
+    <Property Type="String" Name="medicamento" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarEnfermedadesMedicamentocontando_Result">
+    <Property Type="Int32" Name="Cantidad_Enfermedad" Nullable="true" />
+    <Property Type="String" Name="nombre_enfermedad" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="medicamento" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarEspecialidad_Result">
+    <Property Type="String" Name="codigo_esp" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="especialidad" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarHorarios_Result">
+    <Property Type="String" Name="codigo" Nullable="false" MaxLength="3" />
+    <Property Type="DateTime" Name="HoraInicio" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="HoraFin" Nullable="false" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarMedico_Result">
+    <Property Type="String" Name="codigo_doctor" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="Doctor" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="telefono" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="email" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="cod_especialidad" Nullable="true" MaxLength="3" />
+    <Property Type="String" Name="codigo_horarios" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="Especialidad" Nullable="true" MaxLength="12" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarMedicoNombre_Result">
+    <Property Type="String" Name="codigo_doctor" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="telefono" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="email" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="cod_especialidad" Nullable="true" MaxLength="3" />
+    <Property Type="String" Name="codigo_horarios" Nullable="false" MaxLength="3" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarPacienteNombre_Result">
+    <Property Type="String" Name="codigo_paciente" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fecha_nac" Nullable="false" />
+    <Property Type="String" Name="sexo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="codigo_distrito" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="emergencia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ocupacion" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="alergia" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarPacientepordistrito2_Result">
+    <Property Type="Int32" Name="Cantidad_Pacientes" Nullable="true" />
+    <Property Type="String" Name="dis_nombre" Nullable="false" MaxLength="200" />
+    <Property Type="Decimal" Name="talla" Nullable="false" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarPacientePorEnfermedad_Result">
+    <Property Type="String" Name="codigo_paciente" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="nombre_enfermedad" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="enfermedad_Terminal" Nullable="false" MaxLength="2" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarPacientes_Result">
+    <Property Type="String" Name="codigo_paciente" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fecha_nac" Nullable="false" />
+    <Property Type="String" Name="sexo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="codigo_distrito" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="emergencia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ocupacion" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="alergia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Sala" Nullable="true" MaxLength="24" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarPaisRegistrados_Result">
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+    <Property Type="Int32" Name="Column1" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarSalas_Result">
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarxPacientexSexoxFecha_Result">
+    <Property Type="String" Name="Nombre_Paciente" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="Sexo" Nullable="false" MaxLength="1" />
+    <Property Type="DateTime" Name="Fecha_Nac" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_ListaxCantidadxCitasxPacientes_Result">
+    <Property Type="String" Name="Nombre_Sala" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Nombre_Paciente" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="sexo" Nullable="false" MaxLength="1" />
+    <Property Type="Int32" Name="Cantidad_Citas" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ListaxDoctorxHoraAtencion_Result">
+    <Property Type="String" Name="Paciente" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="Sala" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Consultorio" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="FechaAtencion" Nullable="true" />
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="sp_ReportePaciente_Result">
+    <Property Type="String" Name="codigo_paciente" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fecha_nac" Nullable="false" />
+    <Property Type="String" Name="sexo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="codigo_distrito" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="emergencia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ocupacion" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="alergia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="codigo_sala1" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre1" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_ReportMedico_Result">
+    <Property Type="String" Name="codigo_doctor" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="cod_especialidad" Nullable="true" MaxLength="3" />
+    <Property Type="Int64" Name="filas" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ListaxDoctorxHoraAtencion_Result1">
+    <Property Type="String" Name="codigo_cita" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="Paciente" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="Sala" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Consultorio" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="FechaAtencion" Nullable="true" />
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="sp_ListaxCantidadxCitasxPacientes2_Result">
+    <Property Type="String" Name="Nombre_Sala" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Nombre_Paciente" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="sexo" Nullable="false" MaxLength="1" />
+    <Property Type="Int32" Name="Cantidad_Citas" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_listarpacientes2_Result">
+    <Property Type="String" Name="codigo_paciente" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fecha_nac" Nullable="false" />
+    <Property Type="String" Name="sexo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="dis_nombre" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="emergencia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ocupacion" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="alergia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Sala" Nullable="true" MaxLength="24" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarxPacientexSexoxFecha2_Result">
+    <Property Type="String" Name="Nombre_Paciente" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="Sexo" Nullable="false" MaxLength="1" />
+    <Property Type="DateTime" Name="Fecha_Nac" Nullable="false" />
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="emergencia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ocupacion" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="alergia" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarxPacientexSexoxFecha3_Result">
+    <Property Type="String" Name="Nombre_Paciente" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="Sexo" Nullable="false" MaxLength="1" />
+    <Property Type="DateTime" Name="Fecha_Nac" Nullable="false" />
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="emergencia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ocupacion" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="alergia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="dis_nombre" Nullable="false" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarxPacientexSexoxFechaxDistrito_Result">
+    <Property Type="String" Name="Nombre_Paciente" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="Sexo" Nullable="false" MaxLength="1" />
+    <Property Type="DateTime" Name="Fecha_Nac" Nullable="false" />
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="emergencia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ocupacion" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="alergia" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="dis_nombre" Nullable="false" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarxCantidadxPacientexSexoxDistrito_Result">
+    <Property Type="String" Name="Nombre_Paciente" Nullable="false" MaxLength="101" />
+    <Property Type="String" Name="Sexo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+    <Property Type="Int32" Name="Cantidad_Paciente_Distrito" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarxCantidadxPacientexSexoxDistrito2_Result">
+    <Property Type="Int32" Name="Cantidad_Paciente" Nullable="true" />
+    <Property Type="String" Name="Sexo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="dis_nombre" Nullable="false" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarxCantidadxPacientexSexoxSala_Result">
+    <Property Type="Int32" Name="Cantidad_Paciente" Nullable="true" />
+    <Property Type="String" Name="Sexo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="codigo_sala" Nullable="false" MaxLength="3" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarCantidadPacientesxDistritoxDoctor_Result">
+    <Property Type="Int32" Name="cantidad_pacientes" Nullable="true" />
+    <Property Type="String" Name="dis_nombre" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="Column1" Nullable="false" MaxLength="101" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarCantidadPacientesxSexoxDistritoxDoctor_Result">
+    <Property Type="Int32" Name="cantidad_pacientes" Nullable="true" />
+    <Property Type="String" Name="sexo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="dis_nombre" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="Doctor" Nullable="false" MaxLength="101" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarCantidadPacientesxDistritoxDoctor2_Result">
+    <Property Type="Int32" Name="cantidad_pacientes" Nullable="true" />
+    <Property Type="String" Name="dis_nombre" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="Nombre_doctor" Nullable="false" MaxLength="101" />
+  </ComplexType>
+  <ComplexType Name="sp_ListarxCantidadxPacientexSalaxPaisxServicio_Result">
+    <Property Type="String" Name="Pais" Nullable="false" MaxLength="20" />
+    <Property Type="Int32" Name="Cantidad" Nullable="true" />
+    <Property Type="String" Name="Codigo_Sala" Nullable="false" MaxLength="55" />
+  </ComplexType>
+</Schema>

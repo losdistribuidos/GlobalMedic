@@ -1,0 +1,583 @@
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\WebGrease.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+E:\DS 3\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+E:\DS 3\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\WebGrease.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+E:\DS 3\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+E:\DS 3\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+E:\DS 3\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+E:\DS 3\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+E:\DS 3\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+G:\DS 3\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+G:\DS 3\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\WebGrease.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\DS 3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+G:\DS 3\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+G:\DS 3\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+G:\DS 3\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+G:\DS 3\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+G:\DS 3\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\WebGrease.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\WebGrease.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\WebGrease.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\WebGrease.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\bin\AjaxControlToolkit.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\AjaxControlToolkit.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\WebGrease.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\AjaxControlToolkit.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\WebGrease.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+C:\Users\Christian\Desktop\PROYECTOPLANTILLASDECENTES\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\WebGrease.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\WebGrease.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+I:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\WebGrease.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+E:\DS3TRABAJOFINALCONLINKS\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\WebGrease.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+G:\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\WebGrease.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\AjaxControlToolkit.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\WebGrease.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\WebGrease.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\WCFWEB.dll.config
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\WCFWEB.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\WCFWEB.pdb
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\Antlr3.Runtime.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\EntityFramework.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\Microsoft.ScriptManager.WebForms.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\Microsoft.Web.Infrastructure.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\System.Web.Optimization.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\System.Web.Providers.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\WebGrease.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\EntityFramework.xml
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.Core.xml
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.xml
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.xml
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\DotNetOpenAuth.AspNet.xml
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\es\EntityFramework.resources.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\es\System.Web.Optimization.resources.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\es\System.Web.Providers.resources.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.csprojResolveAssemblyReference.cache
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCFWEB\obj\Debug\WCFWEB.pdb

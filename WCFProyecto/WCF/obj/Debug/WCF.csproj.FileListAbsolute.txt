@@ -1,0 +1,92 @@
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCF\bin\Debug\WCF.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCF\bin\Debug\WCF.pdb
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCF\obj\Debug\WCF.dll
+c:\users\alumno-ct\documents\visual studio 2012\Projects\WCFProyecto\WCF\obj\Debug\WCF.pdb
+E:\DS 3\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+E:\DS 3\WCFProyecto\WCF\bin\Debug\WCF.dll
+E:\DS 3\WCFProyecto\WCF\bin\Debug\WCF.pdb
+E:\DS 3\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+E:\DS 3\WCFProyecto\WCF\obj\Debug\WCF.dll
+E:\DS 3\WCFProyecto\WCF\obj\Debug\WCF.pdb
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCF\bin\Debug\WCF.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCF\bin\Debug\WCF.pdb
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCF\obj\Debug\WCF.dll
+C:\Users\Alumno-CT\Documents\Visual Studio 2012\WCFProyecto\WCF\obj\Debug\WCF.pdb
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\obj\Debug\WCF.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\obj\Debug\WCF.pdb
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\WCF.dll
+C:\Users\JuanJose\Downloads\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\WCF.pdb
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\WCF.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\WCF.pdb
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\obj\Debug\WCF.dll
+C:\Users\Alumno-CT\Desktop\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\obj\Debug\WCF.pdb
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\WCF.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\WCF.pdb
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\obj\Debug\WCF.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\obj\Debug\WCF.pdb
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\EntityFramework.dll
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\EntityFramework.xml
+C:\Users\Christian\Desktop\entity\PROYECTODS3\proyectods32121015\WCFProyecto\WCF\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCF\bin\Debug\WCF.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCF\bin\Debug\WCF.pdb
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCF\bin\Debug\EntityFramework.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCF\bin\Debug\EntityFramework.xml
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCF\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCF\obj\Debug\WCF.dll
+C:\Users\Christian\Downloads\Nueva carpeta\WCFProyecto\WCF\obj\Debug\WCF.pdb
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCF\bin\Debug\WCF.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCF\bin\Debug\WCF.pdb
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCF\bin\Debug\EntityFramework.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCF\bin\Debug\EntityFramework.xml
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCF\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCF\obj\Debug\WCF.dll
+C:\Users\Alumno-CT\Desktop\WCFProyecto\WCF\obj\Debug\WCF.pdb
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\obj\Debug\WCF.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\obj\Debug\WCF.pdb
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\WCF.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\WCF.pdb
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\EntityFramework.dll
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\EntityFramework.xml
+C:\Users\JuanJose\Music\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\WCF.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\WCF.pdb
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\EntityFramework.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\EntityFramework.xml
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\obj\Debug\WCF.dll
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\obj\Debug\WCF.pdb
+C:\Users\Christian\Desktop\Nueva carpeta (3)\ZHUKULEMCIA\ZHUKULEMCIA\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCF\obj\Debug\WCF.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCF\obj\Debug\WCF.pdb
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCF\bin\Debug\WCF.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCF\bin\Debug\WCF.pdb
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCF\bin\Debug\EntityFramework.dll
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCF\bin\Debug\EntityFramework.xml
+C:\Users\Alumno-CT\Desktop\PLANTILLAS3\WCFProyecto\WCF\bin\Debug\es\EntityFramework.resources.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+F:\UPC\WCFProyecto\WCFProyecto\WCF\bin\Debug\WCF.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCF\bin\Debug\WCF.pdb
+F:\UPC\WCFProyecto\WCFProyecto\WCF\bin\Debug\EntityFramework.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCF\bin\Debug\EntityFramework.xml
+F:\UPC\WCFProyecto\WCFProyecto\WCF\bin\Debug\es\EntityFramework.resources.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+F:\UPC\WCFProyecto\WCFProyecto\WCF\obj\Debug\WCF.dll
+F:\UPC\WCFProyecto\WCFProyecto\WCF\obj\Debug\WCF.pdb

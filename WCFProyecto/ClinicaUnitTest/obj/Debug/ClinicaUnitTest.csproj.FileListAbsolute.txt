@@ -1,0 +1,8 @@
+F:\UPC\WCFProyecto\WCFProyecto\ClinicaUnitTest\bin\Debug\ClinicaUnitTest.dll.config
+F:\UPC\WCFProyecto\WCFProyecto\ClinicaUnitTest\bin\Debug\ClinicaUnitTest.dll
+F:\UPC\WCFProyecto\WCFProyecto\ClinicaUnitTest\bin\Debug\ClinicaUnitTest.pdb
+F:\UPC\WCFProyecto\WCFProyecto\ClinicaUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\UPC\WCFProyecto\WCFProyecto\ClinicaUnitTest\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+F:\UPC\WCFProyecto\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.csprojResolveAssemblyReference.cache
+F:\UPC\WCFProyecto\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.dll
+F:\UPC\WCFProyecto\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.pdb

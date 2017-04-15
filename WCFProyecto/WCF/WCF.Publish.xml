@@ -1,0 +1,10 @@
+<publishData>
+  <publishTarget publishUrl="http://localhost/WCF_Clinica">
+    <file relUrl="WCF.Service1.svc" publishTime="09/21/2015 16:22:35" />
+    <file relUrl="bin/WCF.dll.config" publishTime="09/21/2015 13:54:02" />
+    <file relUrl="Web.config" publishTime="09/21/2015 13:54:02" />
+    <file relUrl="bin/WCF.dll" publishTime="09/21/2015 16:20:36" />
+    <file relUrl="bin/WCF.pdb" publishTime="09/21/2015 16:20:34" />
+    <file relUrl="WCF.ServiciosEnfermedad.svc" publishTime="09/21/2015 16:22:35" />
+  </publishTarget>
+</publishData>
