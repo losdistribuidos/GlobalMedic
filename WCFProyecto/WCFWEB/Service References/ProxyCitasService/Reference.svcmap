@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e50e5f5e-a4cc-41ab-86a3-66f2dcddad8e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:63523/CitasService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CitasService.disco" MetadataType="Disco" ID="d7212f42-c24d-41cf-8bac-8a143352c49f" SourceId="1" SourceUrl="http://localhost:63523/CitasService.svc?disco" />
+    <MetadataFile FileName="CitasService.wsdl" MetadataType="Wsdl" ID="8f707183-1341-4d6f-b3a5-cce96c1fd3ca" SourceId="1" SourceUrl="http://localhost:63523/CitasService.svc?wsdl" />
+    <MetadataFile FileName="CitasService.xsd" MetadataType="Schema" ID="398245c8-1313-4d1b-9189-77924b0ea8b2" SourceId="1" SourceUrl="http://localhost:63523/CitasService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CitasService1.xsd" MetadataType="Schema" ID="c2ae65a3-5eda-40c3-b49b-beddf587db1e" SourceId="1" SourceUrl="http://localhost:63523/CitasService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CitasService2.xsd" MetadataType="Schema" ID="1df38505-cfe1-4c17-aba4-911429f992bb" SourceId="1" SourceUrl="http://localhost:63523/CitasService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
