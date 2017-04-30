@@ -90,3 +90,12 @@ F:\UPC\WCFProyecto\WCFProyecto\WCF\bin\Debug\es\EntityFramework.resources.dll
 F:\UPC\WCFProyecto\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
 F:\UPC\WCFProyecto\WCFProyecto\WCF\obj\Debug\WCF.dll
 F:\UPC\WCFProyecto\WCFProyecto\WCF\obj\Debug\WCF.pdb
+F:\UPC\SSD\GlobalMedic\WCFProyecto\WCF\bin\Debug\WCF.dll.config
+F:\UPC\SSD\GlobalMedic\WCFProyecto\WCF\bin\Debug\WCF.dll
+F:\UPC\SSD\GlobalMedic\WCFProyecto\WCF\bin\Debug\WCF.pdb
+F:\UPC\SSD\GlobalMedic\WCFProyecto\WCF\bin\Debug\EntityFramework.dll
+F:\UPC\SSD\GlobalMedic\WCFProyecto\WCF\bin\Debug\EntityFramework.xml
+F:\UPC\SSD\GlobalMedic\WCFProyecto\WCF\bin\Debug\es\EntityFramework.resources.dll
+F:\UPC\SSD\GlobalMedic\WCFProyecto\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+F:\UPC\SSD\GlobalMedic\WCFProyecto\WCF\obj\Debug\WCF.dll
+F:\UPC\SSD\GlobalMedic\WCFProyecto\WCF\obj\Debug\WCF.pdb

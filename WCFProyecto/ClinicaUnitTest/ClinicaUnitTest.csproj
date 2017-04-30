@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ClinicaUnitTest</RootNamespace>
     <AssemblyName>ClinicaUnitTest</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -16,6 +16,7 @@
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,7 +55,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Service References\ServiceReferenceCitas\Reference.cs">
+    <Compile Include="Service References\ProxyCitasService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -68,28 +69,31 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
-    <None Include="Service References\ServiceReferenceCitas\service.wsdl" />
-    <None Include="Service References\ServiceReferenceCitas\service.xsd">
+    <None Include="Service References\ProxyCitasService\CitasService.wsdl" />
+    <None Include="Service References\ProxyCitasService\CitasService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReferenceCitas\service1.xsd">
+    <None Include="Service References\ProxyCitasService\CitasService1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReferenceCitas\service2.xsd">
+    <None Include="Service References\ProxyCitasService\CitasService2.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\ServiceReferenceCitas\" />
+    <WCFMetadataStorage Include="Service References\ProxyCitasService\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\ServiceReferenceCitas\configuration91.svcinfo" />
+    <None Include="Service References\ProxyCitasService\CitasService.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\ServiceReferenceCitas\configuration.svcinfo" />
+    <None Include="Service References\ProxyCitasService\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\ServiceReferenceCitas\Reference.svcmap">
+    <None Include="Service References\ProxyCitasService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ProxyCitasService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

@@ -9,7 +9,7 @@ namespace ClinicaUnitTest
         [TestMethod]
         public void TestMethod1()
         {
-            ServiceReferenceCitas.ServicioCitaClient swCitas = new ServiceReferenceCitas.ServicioCitaClient();
+            ProxyCitasService.CitasServiceClient swCitas = new ProxyCitasService.CitasServiceClient();
             DataSet ds = new DataSet();
             ds = swCitas.ObtenerCitaPorPacientes("48007604");
             Assert.IsNotNull(ds);

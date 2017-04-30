@@ -18,11 +18,11 @@ namespace WCFWEB
         protected void bttBBuscar_Click(object sender, EventArgs e)
         {
             string strDni = txtDni.Text;
-            ProxyCita.ServicioCitaClient proxy = new ProxyCita.ServicioCitaClient();
+            ProxyCitasService.CitasServiceClient proxy = new ProxyCitasService.CitasServiceClient();
             DataSet ds = new DataSet();
             ds = proxy.ObtenerCitaPorPacientes(strDni);
             DataTable dt = new DataTable();
-            dt= ds.Tables[0];
+            dt = ds.Tables[0];
             gdvConsulta.DataSource = dt;
             gdvConsulta.DataBind();
         }
