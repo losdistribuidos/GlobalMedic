@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using WCFGlobalMedic.Dominio;
+using WCFGlobalMedic.Errores;
 
 namespace WCFGlobalMedic
 {
@@ -11,7 +13,16 @@ namespace WCFGlobalMedic
     [ServiceContract]
     public interface ILoginService
     {
+        [FaultContract(typeof(RepetidoException))]
         [OperationContract]
-        void DoWork();
+        Usuario Crear(Usuario UsuarioCrear);
+        [OperationContract]
+        Usuario Obtener(int codigo);
+        [OperationContract]
+        Usuario Modificar(Usuario UsuarioModificar);
+        [OperationContract]
+        void Eliminar(string usuario);
+        [OperationContract]
+        List<Usuario> Listar();
     }
 }

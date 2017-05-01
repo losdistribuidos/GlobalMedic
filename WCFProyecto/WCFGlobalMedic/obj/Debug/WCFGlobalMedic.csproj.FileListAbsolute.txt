@@ -4,3 +4,9 @@ F:\UPC\SSD\GlobalMedic\WCFProyecto\WCFGlobalMedic\bin\WCFGlobalMedic.pdb
 F:\UPC\SSD\GlobalMedic\WCFProyecto\WCFGlobalMedic\obj\Debug\WCFGlobalMedic.csprojResolveAssemblyReference.cache
 F:\UPC\SSD\GlobalMedic\WCFProyecto\WCFGlobalMedic\obj\Debug\WCFGlobalMedic.dll
 F:\UPC\SSD\GlobalMedic\WCFProyecto\WCFGlobalMedic\obj\Debug\WCFGlobalMedic.pdb
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\WCFGlobalMedic\bin\WCFGlobalMedic.dll.config
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\WCFGlobalMedic\bin\WCFGlobalMedic.dll
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\WCFGlobalMedic\bin\WCFGlobalMedic.pdb
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\WCFGlobalMedic\obj\Debug\WCFGlobalMedic.csprojResolveAssemblyReference.cache
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\WCFGlobalMedic\obj\Debug\WCFGlobalMedic.dll
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\WCFGlobalMedic\obj\Debug\WCFGlobalMedic.pdb

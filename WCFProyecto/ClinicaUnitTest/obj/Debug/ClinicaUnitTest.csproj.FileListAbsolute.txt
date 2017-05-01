@@ -14,3 +14,9 @@ F:\UPC\SSD\GlobalMedic\WCFProyecto\ClinicaUnitTest\bin\Debug\es\Microsoft.Visual
 F:\UPC\SSD\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.csprojResolveAssemblyReference.cache
 F:\UPC\SSD\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.dll
 F:\UPC\SSD\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.pdb
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\ClinicaUnitTest\bin\Debug\ClinicaUnitTest.dll.config
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\ClinicaUnitTest\bin\Debug\ClinicaUnitTest.dll
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\ClinicaUnitTest\bin\Debug\ClinicaUnitTest.pdb
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.csprojResolveAssemblyReference.cache
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.dll
+E:\ProyectoSSD2\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.pdb
