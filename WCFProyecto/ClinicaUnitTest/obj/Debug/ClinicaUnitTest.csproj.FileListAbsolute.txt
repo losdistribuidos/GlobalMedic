@@ -20,3 +20,9 @@ E:\ProyectoSSD2\GlobalMedic\WCFProyecto\ClinicaUnitTest\bin\Debug\ClinicaUnitTes
 E:\ProyectoSSD2\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.csprojResolveAssemblyReference.cache
 E:\ProyectoSSD2\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.dll
 E:\ProyectoSSD2\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.pdb
+C:\Users\oibarrac\ServicioProyecto3\GlobalMedic\WCFProyecto\ClinicaUnitTest\bin\Debug\ClinicaUnitTest.dll.config
+C:\Users\oibarrac\ServicioProyecto3\GlobalMedic\WCFProyecto\ClinicaUnitTest\bin\Debug\ClinicaUnitTest.dll
+C:\Users\oibarrac\ServicioProyecto3\GlobalMedic\WCFProyecto\ClinicaUnitTest\bin\Debug\ClinicaUnitTest.pdb
+C:\Users\oibarrac\ServicioProyecto3\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\oibarrac\ServicioProyecto3\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.dll
+C:\Users\oibarrac\ServicioProyecto3\GlobalMedic\WCFProyecto\ClinicaUnitTest\obj\Debug\ClinicaUnitTest.pdb

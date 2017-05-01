@@ -50,11 +50,19 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="MedicoTest.cs" />
+    <Compile Include="Service References\MedicosWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\ProxyCitasService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -69,6 +77,22 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Service References\MedicosWS\ClinicaUnitTest.MedicosWS.Medicos.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MedicosWS\Medico.wsdl" />
+    <None Include="Service References\MedicosWS\Medico.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MedicosWS\Medico1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MedicosWS\Medico2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MedicosWS\Medico3.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\ProxyCitasService\CitasService.wsdl" />
     <None Include="Service References\ProxyCitasService\CitasService.xsd">
       <SubType>Designer</SubType>
@@ -81,6 +105,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MedicosWS\" />
     <WCFMetadataStorage Include="Service References\ProxyCitasService\" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +119,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\ProxyCitasService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MedicosWS\Medico.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MedicosWS\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MedicosWS\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MedicosWS\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
